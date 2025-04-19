@@ -1,0 +1,103 @@
+
+
+img {
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px rgb(0, 0, 0);
+}
+/* Paragraph 1 */
+.one {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.cheers, .time {
+    display: inline-block;
+    font-size: 15px;
+}
+/* Paragraph 2 */
+.two {
+    display: block;
+    margin: 10%;
+}
+.two-left, .two-right {
+    font-size: 30px;
+}
+.two-quote {
+    margin-top: 5%;
+    font-size: 15px;
+}
+.two-left {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+.two-right {
+    text-align: right;
+    margin-right: 10%;
+}
+.two-quote {
+    text-align: right;
+    margin-right: 10%;
+}
+/* 
+    Gallery item: LEFT 
+*/
+.gitem-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.date-left, .desc-left {
+    text-align: left;
+    max-width: 400px;
+    padding-left: 20px;
+}
+.image-left {
+    width: 40%;
+    height: auto;
+}
+/*
+    Gallery Item: RIGHT
+*/
+.gitem-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.date-right, .desc-right {
+    text-align: right;
+    max-width: 400px;
+    padding-right: 20px;
+}
+.image-right {
+    width: 40%;
+    height: auto;
+}
+/* 
+    Gallery: More Images
+*/
+.moreimg-text {
+    display: block;
+}
+.moreimg-pics {
+    display: flex;
+    justify-content: center;
+}
+.image-cen {
+    display: inline-block;
+    width: 30%;
+    object-fit: contain;
+}
+.final-cont {
+    margin-top: 70%;
+    margin-bottom: 70%;
+    margin-left: 10%;
+    display:block;
+    width: 80%;
+    justify-content: center;
+}
+.final {
+    font-size: 20px;
+}
