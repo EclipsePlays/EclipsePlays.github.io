@@ -8,7 +8,7 @@ img {
 .one {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin-bottom: 50%;
 }
 .cheers, .time {
     display: inline-block;
